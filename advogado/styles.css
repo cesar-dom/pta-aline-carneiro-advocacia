@@ -1,0 +1,260 @@
+body {
+    background-color: #eee;
+    font: normal 15pt arial;
+    margin: 0;
+
+}
+
+header {
+    box-shadow: 0 0 4px 1px rgba(3, 3, 3, 0.4);
+    color: #666;
+    width: 100%;
+    height: 8vh;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-btn-left {
+    margin-left: 10%;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-btn-right {
+    margin-right: 10%;
+    width: 11%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a { 
+    font-size: .8rem;
+    text-decoration: none;
+    color: #666;
+    display: flex;
+    width: -webkit-fill-available;
+}
+
+i {
+    margin-right: 5%;
+}
+
+.page-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    display: flex;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #510979;
+    margin: 5% 0;
+}
+
+h2 {
+    color: #510979;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: medium;
+    margin-bottom: 15%;
+}
+
+.blog-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.blog-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.blog-card {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.curso-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.curso-text {
+    width: 60%;
+    margin-bottom: 5%;
+}
+
+.curso-img {
+    width: 20%;
+    height: auto;
+    margin-right: 10%;
+    margin-top: -10%;
+}
+
+.curso-btn {
+    width: 25%;
+    height: auto;
+    background-color: #9953db;
+    color: white;
+    padding: 2% 0;
+    margin: 4%;
+    border: none;
+    font-size: large;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.curso-btn:hover {
+    background-color: #510979;
+}
+
+.section-aline-carvalho {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.banner-aline-carvalho {
+    width: 100%;
+    height: auto;
+    margin-top: -8%;
+    /* position: absolute; */
+}
+
+.title-aline-carvalho {
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    margin-left: 10%;
+    top: 40%
+
+}
+
+.text-aline-carvalho {
+    color: white;
+    position: absolute;
+    margin-left: 10%;
+    top: 50%;
+    width: 40%;
+    font-size: smaller;
+}
+
+.section-contact {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.contact-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-link {
+    width: 20%;
+    height: auto;
+    display: flex;
+    align-content: center;
+}
+
+.banner-noticias {
+    width: 100%;
+    height: 50vh;
+    background-image: url('../public/images/blog-card-image-1.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.noticia-legenda {
+    margin: 0;
+}
+
+.divider {
+    width: 100%;
+    margin: 5% auto;
+}
+
+.noticia-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.noticia-banner {
+    width: 80%;
+    height: 30%;
+    object-fit: cover;
+    margin-bottom: 5%;
+}
+
+.noticia-text {
+    width: 80%;
+    margin: 2% auto;
+}
+
+.noticia-text-quote {
+    width: 80%;
+    margin: 2% auto;
+    font-size: xx-large;
+}
+
+footer {
+    background-color: #32373C;
+    color: white;
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerimage {
+    width: auto;
+    height: 10%;
+}
+
+.footertext {
+    font: normal 9pt arial;
+    margin: 0;
+}
+
+.footercontent {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    width: 100%
+}

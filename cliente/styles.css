@@ -1,0 +1,412 @@
+body {
+    background-color: #eee;
+    font: normal 15pt arial;
+    margin: 0;
+
+}
+
+header {
+    box-shadow: 0 0 4px 1px rgba(3, 3, 3, 0.4);
+    color: #666;
+    width: 100%;
+    height: 8vh;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-btn-left {
+    margin-left: 10%;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-btn-right {
+    margin-right: 10%;
+    width: 11%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a { 
+    font-size: .8rem;
+    text-decoration: none;
+    color: #666;
+    display: flex;
+}
+
+.icon-menu-btn { 
+    font-size: .8rem;
+    text-decoration: none;
+    color: #666;
+    display: flex;
+    width: -webkit-fill-available;
+}
+
+i {
+    margin-right: 5%;
+}
+
+.page-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.empresarial-page-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    /* background-color: #32373C; */
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.banner-empresarial {
+    width: 100%;
+    height: 160vh;
+}
+
+.logo-empresarial {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 35%;
+    height: auto;
+}
+
+.logo-legenda {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    color: white;
+    font-size: large;
+}
+
+.data-content {
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    height: 30vh;
+    background-color: white;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    color: #D3AE50;
+}
+
+.data-title {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+
+.data-subtitle {
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+}
+
+section {
+    display: flex;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #D3AE50;
+    margin: 5% 0;
+}
+
+h2 {
+    color: #D3AE50;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: medium;
+    margin-bottom: 15%;
+}
+
+.dconsumidor-text {
+    margin-bottom: 0%;
+}
+
+.dconsumidor-list {
+    
+}
+
+.areas-section {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    position: absolute;
+    top: 105%;
+}
+
+.areas-title {
+    color: #eee;
+    margin-left: 10%;
+    position: absolute;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.areas-content {
+    width: 100%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 25vh;
+}
+
+
+.areas-card {
+    position: relative;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.areas-box {
+    /* position: absolute; */
+    /* top: 50%; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: #eee;
+    color: #32373C;
+    border-radius: 4px;
+}
+
+.areas-text {
+    margin: 10% 0;
+}
+
+.areas-icon-container {
+    position: absolute;
+    top: -70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    background-color: #D3AE50;
+    color: #32373C;
+}
+
+.areas-icon {
+    font-size: x-large;
+}
+
+.curso-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.curso-text {
+    width: 60%;
+    margin-bottom: 5%;
+}
+
+.curso-img {
+    width: 20%;
+    height: auto;
+    margin-right: 10%;
+    margin-top: -10%;
+}
+
+.curso-btn {
+    width: 25%;
+    height: auto;
+    background-color: #9953db;
+    color: white;
+    padding: 2% 0;
+    margin: 4%;
+    border: none;
+    font-size: large;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.curso-btn:hover {
+    background-color: #510979;
+}
+
+.section-aline-carvalho {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.banner-aline-carvalho {
+    width: 100%;
+    height: auto;
+    margin-top: -14%;
+    /* position: absolute; */
+}
+
+.title-aline-carvalho {
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    margin-left: 10%;
+    top: 20%
+
+}
+
+.text-aline-carvalho {
+    color: white;
+    position: absolute;
+    margin-left: 10%;
+    top: 35%;
+    width: 40%;
+    font-size: smaller;
+}
+
+.section-contact {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.contact-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contact-logo-container {
+    display: flex;
+    height: 40vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    /* flex-grow: 1; */
+}
+
+.contact-map-container {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    /* flex-grow: 4; */
+}
+
+.contact-info-container {
+    display: flex;
+    width: 30%;
+    height: 40vh;
+    justify-content: end;
+    flex-direction: column;
+    /* flex-grow: 2; */
+}
+
+.contact-info-text {
+    margin-bottom: 2%;
+    font-size: smaller;
+}
+
+.contact-link {
+    width: 75%;
+    height: auto;
+    display: flex;
+    align-content: center;
+}
+
+.banner-direito-consumidor {
+    width: 100%;
+    height: 50vh;
+    background-image: url('../public/images/direito-consumidor-banner.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.noticia-legenda {
+    margin: 0;
+}
+
+.divider {
+    width: 100%;
+    margin: 5% auto;
+}
+
+.direito-consumidor-content {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0% auto;
+    font-size: medium;
+}
+
+.noticia-banner {
+    width: 80%;
+    height: 30%;
+    object-fit: cover;
+    margin-bottom: 5%;
+}
+
+.noticia-text {
+    width: 80%;
+    margin: 2% auto;
+}
+
+.noticia-text-quote {
+    width: 80%;
+    margin: 2% auto;
+    font-size: xx-large;
+}
+
+footer {
+    background-color: #32373C;
+    color: white;
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerimage {
+    width: auto;
+    height: 10%;
+}
+
+.footertext {
+    font: normal 9pt arial;
+    margin: 0;
+}
+
+.footercontent {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    width: 100%
+}

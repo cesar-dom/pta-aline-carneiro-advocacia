@@ -1,0 +1,61 @@
+body {
+    background-color: #eee;
+    font: normal 15pt arial;
+    margin: 0;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+    margin: 0 auto;
+    position: relative;    
+}
+
+.cardcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 30vw;
+    margin: 4vw;
+}
+
+img {
+    width: 100%
+}
+
+h1 {
+    text-align: center;
+    color: #32373C;
+    margin: 0 10%;
+}
+
+footer {
+    background-color: #32373C;
+    color: white;
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerimage {
+    width: auto;
+    height: 10%;
+}
+
+.footertext {
+    font: normal 9pt arial;
+}
+
+.footercontent {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    width: 100%
+}
